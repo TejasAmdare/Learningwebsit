@@ -1,0 +1,30 @@
+.post-img{
+    height: 400px;
+    overflow: hidden;
+    /* margin-top: 14px; */
+    
+}
+.post-img img{
+    width: 100%;
+}
+
+.blog-post-content{
+    /* text-align: center; */
+    margin-top: 30px;
+    /* background-color: antiquewhite; */
+}
+.home-articale-x{
+    display: flex;
+}
+.blog-post-content h1{
+    text-align: center;
+    font-family: var(--font-1);
+}
+
+.bloggers-meta{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: violet; */
+    padding: 8px 10px;
+    margin: 14px -40px;
+}
