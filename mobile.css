@@ -1,0 +1,118 @@
+@media (min-width:530px) and (max-width:1230px) {
+    .navigation{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    /* .contain-left p{
+        height: 100%;
+    }
+    .content content-left p{
+        margin-left: 2px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 100px;
+    } */
+    .content-right{
+        display: none;
+    }
+    .home-articale-content div{
+            padding: 2px 2px;
+            text-align: center;
+            justify-content: center;
+        }
+    .home-articale-y{
+        display: flex;
+        flex-direction: column;
+    }
+    .year-box{
+        position: absolute;
+        right: -150px;
+        top: 4px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
+        /* background-color: aqua; */
+    }
+    
+}
+@media screen and (max-width:530px){
+    .navigation{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .nav-left ul{
+        font-size: 15px;
+        margin: 0px 4px;
+    }
+    .nav-left ul li{
+        margin: 0px 10px;
+    }
+    .form-input{
+        width: 150px;
+        font-size: 25px;
+    }
+    .btn{
+        font-size: 25px;
+    }
+    
+    .content-left {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-articale-content div{
+        padding: 2px 2px;
+        text-align: center;
+        justify-content: center;
+    }
+    .home-articale-y{
+        display: flex;
+        flex-direction: column;
+    }
+    .year-box{
+        position: absolute;
+        right: -150px;
+        top: 4px;
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
+        /* background-color: aqua; */
+    }
+    .home-articale{
+        display: flex;
+      flex-direction: column;
+    } 
+
+    .home-articale-content div{
+        padding: 2px 2px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+    .home-articale-content div ul li{
+        text-align: center;
+        justify-content: center;
+    }
+}
