@@ -1,0 +1,26 @@
+.contact-content {
+    height: 100%;
+    background-image: url('../image/background4.jpg');
+    background-color: rgb(222, 222, 222);
+    /* display: flex; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.contact-content::after{
+    content: "";
+    /* background-image: url("../image/background.jpg"); */
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+}
+
+.contact-form{
+    text-align: center;
+    /* align-items: center; */
+}
